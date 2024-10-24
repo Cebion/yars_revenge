@@ -1,0 +1,9 @@
+0.98 14 Oct 03
+
+A quick bug fix release thanks to Anders Johanssen, who pointed out that I'd left a little bit of debugging
+code in there which made it a bit difficult to win :)
+
+0.99 21 Oct 03
+
+Difficulties compiling under Debian due to casting problems. 4 void * casted by default. Reported on www.happypenguin.org
+
