@@ -24,6 +24,7 @@ using namespace std;
 
 #include <iostream>
 #include <string>
+#include <cstdlib>   // for free, malloc, rand, srand
 
 #define DEFAULT_SCX		(1024)					// Default Screen Size and Depth
 #define DEFAULT_SCY		(768)

@@ -16,6 +16,10 @@
  ***************************************************************************/
 
 #include "sgw.hxx"
+#include <cstdio>    // for sprintf
+#include <cstdlib>   // for rand, srand, abs
+#include <cmath>     // for pow, cos, sin
+
 
 #define LTOP(c) ((c) >> 8)                      // Conversion between logical and physical
 #define PTOL(c) ((c) << 8)                      // values in logical unless stated otherwise
